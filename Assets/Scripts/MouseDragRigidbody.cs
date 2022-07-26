@@ -10,7 +10,6 @@ public class MouseDragRigidbody : MonoBehaviour
     private Vector3 originalRigidbodyPos;
     private float selectionDistance;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (targetCamera == null) Debug.LogError("Camera not assigned in editor");
